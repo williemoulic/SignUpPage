@@ -100,6 +100,10 @@ header{
     transition: height .2s ease;
 }
 
+.wrapper.active-popup{
+    transform: scale(1);
+}
+
 .wrapper.active{
     height: 520px;
 }
