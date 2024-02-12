@@ -109,7 +109,8 @@ header{
 }
 
 .wrapper .form-box.login{
-    /*display: none;*/
+    transition: transform .18s ease;
+    transform: translateX(0);
 }
 
 .wrapper.active .form-box.login{
@@ -119,7 +120,13 @@ header{
 
 .wrapper .form-box.register{
     position: absolute;
+    transition: none;
     transform: translateX(400px);
+}
+
+.wrapper.active .form-box.register{
+    transition: transform .18s ease;
+    transform: translateX(0);
 }
 
 .wrapper .icon-close{
