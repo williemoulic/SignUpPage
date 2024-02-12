@@ -96,6 +96,7 @@ header{
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    transform: scale(0);
     transition: height .2s ease;
 }
 
